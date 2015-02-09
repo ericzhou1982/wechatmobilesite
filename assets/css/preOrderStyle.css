@@ -1,0 +1,24 @@
+/* TADASHISHOJI preOrder STYLE  */
+
+
+.ta-preOrderbg {
+	background-color: #eee;
+}
+
+.am-datepicker tr.am-datepicker-header {
+background: #de2c7c;
+}
+
+.am-datepicker .am-datepicker-dow {
+height: 40px;
+color: #de2c7c;
+}
+
+.am-datepicker td.am-active, .am-datepicker td.am-active:hover {
+	color: #de2c7c;
+background: #f5cee8;
+}
+
+.am-datepicker td.am-datepicker-old, .am-datepicker td.am-datepicker-new {
+color: #ee80b1;
+}

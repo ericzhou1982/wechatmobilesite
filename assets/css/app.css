@@ -1,0 +1,28 @@
+/* TADASHISHOJI STYLE  */
+
+
+/* 全局 */
+.ta-txtCenter {
+	text-align: center;
+}
+a {
+	color: #000;
+}
+
+.am-gotop-default a {
+background-color: #eeeeee;
+padding: .5em 1.5em;
+border-radius: 0;
+color: #000000;
+}
+/* 页头 */
+
+.ta-header{
+	margin-top: 20px;
+}
+
+
+/* 页脚 */
+.ta-footerHr {
+	margin-bottom: 0px;
+}

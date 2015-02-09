@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>TADASHI SHOJI</title>
+
+  <!-- Set render engine for 360 browser -->
+  <meta name="renderer" content="webkit">
+
+  <!-- No Baidu Siteapp-->
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+  <link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="TADASHISHOJI官方网站"/>
+  <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+
+
+  <link rel="stylesheet" href="assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/preOrderStyle.css">
+  <link rel="stylesheet" href="assets/css/amazeui.datetimepicker.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，我们网站使用最新技术开发暂不支持您的浏览器。 请 <a
+  href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+  以获得更好的体验！</p>
+<![endif]-->
+
+<!-- 页面内容  头部代码-->
+<header class="am-g am-g-fixed ta-header">
+  <div class="am-u-sm-2 ta-txtCenter"><a href="#nav" class="am-icon-bars am-icon-sm"></a></div>
+  <div class="am-u-sm-8 ta-txtCenter"><img src="img/logo.png" alt="TADASHISHOJI官方网站"></div>
+  <div class="am-u-sm-2 ta-txtCenter"><a href="#" class="am-icon-shopping-cart am-icon-sm"></a></div>
+</header>
+<hr>
+<!-- 页面主内容代码-->
+<div class="am-g am-g-fixed">
+  <div class="am-scrollspy-init am-scrollspy-inview am-animation-scale-up am-u-sm-10 am-u-sm-centered" data-am-scrollspy="{animation: 'scale-up', repeat: false}">
+    <h2>在线预约</h2>
+    <small>为了保证预约的有效性, 请提供真实信息</small>
+  </div>
+</div>
+<hr>
+<div class="am-g am-g-fixed">
+  <form class="am-form">
+  <fieldset>
+    <div class="am-form-group">
+      <label for="doc-ipt-email-1">请选择门店</label>
+        <select id="doc-ipt-email-1">
+        <option value="option0">请选择</option>
+        <option value="option1">北京芳草地旗舰店</option>
+        <option value="option2">上海愚园路门店</option>
+      </select>
+    </div>
+
+    <div class="am-form-group">
+      <label for="doc-ipt-date-1">日期:</label>
+      <div class="am-form-icon">
+      <i class="am-icon-calendar"></i>
+      <input type="text" class="am-form-field" placeholder="请选择日期" data-am-datepicker />
+      </div>
+    </div>
+
+    <div class="am-form-group">
+      <label for="doc-ipt-name-1">姓名</label>
+      <input type="text" name="" id="doc-ipt-name-1" value="">
+    </div>
+
+    <div class="am-form-group">
+      <label for="doc-ipt-tel-1">联系电话</label>
+      <input type="text" name="" id="doc-ipt-tel-1" value="">
+    </div>
+
+    <div class="am-form-group">
+      <label for="doc-ipt-nums-1">人数</label>
+      <input type="text" name="" id="doc-ipt-nums-1" value="">
+    </div>
+
+    <div class="am-form-group">
+      <label for="doc-ipt-notice-1">备注</label>
+      <textarea class="" rows="2" id="ddoc-ipt-notice-1"></textarea>
+    </div>
+
+    <p><button type="submit" class="am-btn am-btn-default am-btn-sm am-fl btn-loading-submit" data-am-loading="{spinner: 'circle-o-notch', loadingText: '提交中...', resetText: '提交完成 ^_^'}">提交</button>
+       <button type="submit" class="am-btn am-btn-default am-btn-sm am-fr">重置</button></p>
+  </fieldset>
+</form>
+</div>
+<!-- 页脚代码-->
+<div data-am-widget="gotop" class="am-gotop am-gotop-default">
+  <a href="#top" title="回到顶部">
+    <span class="am-gotop-title">回到顶部</span>
+    <i class="am-gotop-icon am-icon-chevron-up"></i>
+  </a>
+</div>
+<hr class="ta-footerHr">
+<footer data-am-widget="footer" class="am-footer am-footer-default">
+  <div class="am-footer-miscs ">
+    <p>由<a href="http://www.tadashishoji.com.cn/" title="TADASHISHOJI" target="_blank" class="">TADASHISHOJI</a>提供技术支持</p>
+    <p>CopyRight©2015 TADASHISHOJI 中国官网.</p>
+    <small>沪ICP备14002310号-4</small>
+  </div>
+</footer>
+<!-- 以上页面内容 -->
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/polyfill/rem.min.js"></script>
+<script src="assets/js/polyfill/respond.min.js"></script>
+<script src="assets/js/amazeui.legacy.js"></script>
+<script src="assets/js/amazeui.datetimepicker.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/amazeui.min.js"></script>
+<script src="assets/js/amazeui.datetimepicker.min.js"></script>
+<script type="text/javascript">
+  $('.btn-loading-submit').click(function () {
+  var $btn = $(this)
+  $btn.button('loading');
+    setTimeout(function(){
+      $btn.button('reset');
+  }, 5000);
+});
+
+</script>
+<!--<![endif]-->
+
+</body>
+</html>
