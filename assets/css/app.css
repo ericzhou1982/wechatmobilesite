@@ -15,14 +15,84 @@ padding: .5em 1.5em;
 border-radius: 0;
 color: #000000;
 }
-/* 页头 */
 
-.ta-header{
-	margin-top: 20px;
+.am-footer {
+padding: 0 0;
 }
+
+.am-btn-primary {
+
+	background-color: black;
+}
+
+
+/* 页头 */
+.am-topbar {
+background: #FFFFFF;
+margin-bottom:1px;
+}
+.ta-searchBtn {
+position: relative;
+padding:0.3em;
+}
+
+
 
 
 /* 页脚 */
 .ta-footerHr {
-	margin-bottom: 0px;
+	margin-bottom: 0;
+}
+
+.am-topbar-inverse {
+background-color: #4f5259;
+border-color: #3f4146;
+color: #8c8c94;
+}
+
+.ta-footMenuBg {
+	background-color: #eeeeee;
+
+}
+
+
+/*自定义内容*/
+.am-slider-a5 .am-control-nav li a.am-active {
+background-color: #d90051;
+cursor: default;
+}
+
+.ta-m10 {margin-top:1.5em;}
+
+.ta-breadCrumb {
+	margin:0;
+}
+
+.am-gallery-title {
+	margin:0.5em 0 0 0;
+}
+
+.ta-Listprice {
+	color: #000000;
+	margin-top: 5px;
+	font-variant: small-caps;
+}
+
+.am-ucheck-checkbox:checked+.am-ucheck-icons, .am-ucheck-radio:checked+.am-ucheck-icons {
+color: #d90051;
+}
+
+.ta-detailTitle{
+	margin: 0.1em 0;
+}
+
+.ta-detailsubTitle{
+	margin-top:0px;
+	color:#BBBBBB;
+}
+
+.ta-detailPrice {
+	font-size:1.5em;
+	color: #000000;
+	font-style: italic;
 }
