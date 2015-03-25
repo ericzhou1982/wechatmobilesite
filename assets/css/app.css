@@ -96,3 +96,10 @@ color: #d90051;
 	color: #000000;
 	font-style: italic;
 }
+
+ul.am-dropdown-content>.am-active>a, ul.am-dropdown-content>.am-active>a:hover, ul.am-dropdown-content>.am-active>a:focus {
+color: #fff;
+text-decoration: none;
+outline: 0;
+background-color: #d90051;
+}
